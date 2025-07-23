@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken'
-import { secret_key } from '../secretKeys.js/secret_key.js'
-import { secret_refresh_key } from '../secretKeys.js/secret_refresh_key.js'
+import { secret_key } from '../secretKeys/secret_key.js'
+import { secret_refresh_key } from '../secretKeys/secret_refresh_key.js'
 
 export const generatingToken = (id) => {
     try {

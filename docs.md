@@ -222,7 +222,7 @@ POST | http://localhost:3000/task
 }
 ```
 
-- ⚠️ **Atenção:** Pode tirar o status, e preencher so title e description, status será "pendente" automáticamente
+- ⚠️ **Atenção:** Pode tirar o status, e preencher só title e description, status será "pendente" automáticamente
 
 ---
 - **🚫 Exemplo de requisição com erro**
@@ -241,7 +241,7 @@ POST | http://localhost:3000/task
     "message": "Data truncated for column 'status' at row 1"
 }
 ```
-- Motivo do erro: status pode so ser preenchido com "pendente", "em andamento" ou "concluido"
+- Motivo do erro: status pode só ser preenchido com "pendente", "em andamento" ou "concluido"
 
 ### 💥 Quando essa rota pode retornar erro?
 

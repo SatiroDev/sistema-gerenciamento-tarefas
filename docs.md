@@ -27,7 +27,7 @@ Quando o token expira, você pode usar o `refreshToken` para obter um novo.
 ## 📌 Rotas relacionadas ao usuário
 
 ### POST /register
-```json
+```plaintext
 POST | http://localhost:3000/register
 ```
 - Descrição: rota que serve para registrar um usuário

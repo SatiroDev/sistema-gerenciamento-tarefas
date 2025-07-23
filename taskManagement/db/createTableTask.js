@@ -1,4 +1,4 @@
-// título, descrição, status (pendente, em andamento, concluído), e data de criação
+
 import { pool } from "./connection.js";
 
 export const createTableTask = async () => {

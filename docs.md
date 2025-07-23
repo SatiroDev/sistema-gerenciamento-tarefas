@@ -361,7 +361,6 @@ DELETE | http://localhost:3000/task/2
 ---
 
 - **📥 Se o usuário tiver tarefa adicionada**
----
 
 - ✅ **Resposta - 200 OK**
 

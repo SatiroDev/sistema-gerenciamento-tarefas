@@ -47,7 +47,7 @@ const auxGetTask = async (idTask, idUser) => {
 const auxComparingInformation = async (currentInformation, newInformation) => {
     const changedInformation = {}
     for (const field of Object.keys(currentInformation)) {
-        if (newInformation[field] !== currentInformation[field] && currentInformation[field] !== undefined) {
+        if (newInformation[field] !== currentInformation[field] && newInformation[field] !== undefined) {
             changedInformation[field] = newInformation[field]
         }
     }

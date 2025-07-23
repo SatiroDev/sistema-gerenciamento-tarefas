@@ -5,9 +5,12 @@ import { userRegistration, userLogin} from "../controller/userController.js";
 import { validateRefreshToken } from "../middlewares/validationRefreshToken.js";
 const router = express.Router()
 
-router.post('/register', validationUser, filterData, userRegistration)
+const jsonParser = express.json();
 
-router.post('/login', userLogin)
+
+router.post('/register',jsonParser, validationUser, filterData, userRegistration)
+
+router.post('/login', jsonParser, userLogin)
 
 router.post('/refresh', validateRefreshToken)
 export default router

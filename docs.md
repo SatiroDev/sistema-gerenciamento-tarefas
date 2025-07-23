@@ -85,7 +85,7 @@ POST | http://localhost:3000/register
 
 ### POST /login
 
-```json
+```plaintext
 POST | http://localhost:3000/login
 ```
 - Descrição: rota que serve para o usuário fazer login
@@ -139,7 +139,7 @@ POST | http://localhost:3000/login
 ## 📌 Rota refresh
 
 ### POST /refresh
-```json
+```plaintext
 POST | http://localhost:3000/refresh
 ```
 - Descrição: rota que serve para o usuário receber um novo token, sem precisar fazer login novamente toda vez que o token expirar
@@ -190,7 +190,7 @@ POST | http://localhost:3000/refresh
 
 ### POST /task
 
-```json
+```plaintext
 POST | http://localhost:3000/task
 ```
 - Descrição: rota que serve para registrar uma tarefa
@@ -254,7 +254,7 @@ POST | http://localhost:3000/task
 
 ### GET /task
 
-```json
+```plaintext
 GET | http://localhost:3000/task
 ```
 
@@ -307,7 +307,7 @@ GET | http://localhost:3000/task
 
 
 ### PUT /task/:id
-```json
+```plaintext
 PUT | http://localhost:3000/task/2
 ```
 - Descrição: rota que serve para editar uma tarefa já existente pelo ID!
@@ -361,7 +361,7 @@ PUT | http://localhost:3000/task/2
 ---
 
 ### DELETE /task/:id
-```json
+```plaintext
 DELETE | http://localhost:3000/task/2
 ```
 - Descrição: rota que serve para deletar uma tarefa já existente pelo ID! Não precisa de body usa somente a URL

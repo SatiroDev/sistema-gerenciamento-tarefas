@@ -1,5 +1,5 @@
 import jwt from 'jsonwebtoken'
-import { secret_key } from '../secretKeys.js/secret_key.js'
+import { secret_key } from '../secretKeys/secret_key.js'
 export const validateToken = (req, res , next) => {
     try {
         const authHeader = req.headers['authorization']

@@ -1,4 +1,12 @@
-# 📄 Documentação da API - TaskManagement
+# 📄 Documentação da API - TaskManagement 
+
+## 📦 Versão
+
+- Versão da API: 1.0
+
+- Status: Estável
+
+- Última atualização: 23 Julho de 2025
 
 ## 🔐 Autenticação
 

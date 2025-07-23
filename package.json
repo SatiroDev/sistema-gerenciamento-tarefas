@@ -1,0 +1,33 @@
+{
+  "name": "dev-backend-jornada",
+  "version": "1.0.0",
+  "description": "Repositório criado para acompanhar minha jornada de aprendizado focada em Desenvolvimento Back-End com Node.js, iniciada em junho de 2025.",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon estudo1/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SatiroDev/dev-backend-jornada.git"
+  },
+  "keywords": [],
+  "author": "José Satiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SatiroDev/dev-backend-jornada/issues"
+  },
+  "homepage": "https://github.com/SatiroDev/dev-backend-jornada#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "joi": "^17.13.3",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.2",
+    "nodemon": "^3.1.10"
+  }
+}

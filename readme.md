@@ -8,7 +8,7 @@ API para gerenciamento de usuários e tarefas, utilizando boas práticas nas sep
 
 ## 💡 Tecnologias utilizadas:
 
-- **Node.js** com **Express** para crição da API RESTful
+- **Node.js** com **Express** para criação da API RESTful
 
 - **MySQL** como sistema de banco de dados
 
